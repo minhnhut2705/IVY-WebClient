@@ -870,9 +870,13 @@ export default {
 .playlistNameCreate {
   box-shadow: none !important;
   color: white;
+  border:2px solid #015D7D !important;
 }
 
 .playlistNameCreate:placeholder-shown {
+  color: #D3D3D3;
+}
+.playlistNameCreate::placeholder {
   color: #D3D3D3;
 }
 

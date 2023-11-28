@@ -56,7 +56,7 @@
             </div>
         </div>
         <table class="table w-50 mt-1 h-auto row position-fixed overflow-auto border-bottom text-dark"
-            style="border-radius: 1px 0 3px 4px !important; max-height: 50% !important; background-color:  rgba(16, 15, 27, 0.95);"
+                                    style="border-radius: 1px 0 3px 4px !important; max-height: 50% !important; background-color:  rgba(16, 15, 27, 0.95) !important;"
             v-if="Object.keys(searchResult).length > 0" v-click-outside="onClickOutside">
             <tbody class="w-100">
                 <template v-for="item in searchResult" :key="item">
@@ -292,6 +292,9 @@ export default {
 .searchInput:placeholder-shown {
     color: #D3D3D3;
 }
+.searchInput::placeholder {
+    color: #D3D3D3;
+}
 
 .userName {
     white-space: nowrap;
@@ -309,6 +312,10 @@ export default {
     display: none;
 }
 
+.searchResultItem {
+    background-color: rgba(16, 15, 27, 0.95) !important;
+    color: white;
+}
 .searchResultItem:hover {
     background-color: #256D85 !important;
 }

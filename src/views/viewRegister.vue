@@ -395,6 +395,9 @@ export default {
 }
 
 .registerInput:placeholder-shown {
+  color: white;
+}
+.registerInput::placeholder {
   color: #D3D3D3;
 }
 
@@ -403,9 +406,6 @@ export default {
   color: white;
 }
 
-.registerInput:placeholder-shown {
-  color: #D3D3D3;
-}
 
 select {
   color: #D3D3D3;
