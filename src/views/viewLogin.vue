@@ -215,7 +215,7 @@ export default {
   color: white;
 }
 
-.logInInput:placeholder-shown {
+.logInInput::placeholder {
   color: #D3D3D3;
 }
 </style>

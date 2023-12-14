@@ -6,7 +6,7 @@
                 <div style="height: 10%;"
                     class="logoContainer py-1 d-flex align-items-center pb-1 mb-md-0 me-md-auto text-white text-decoration-none">
                     <h2 id="logo" class="logo d-none d-md-inline">IVY</h2>
-                    <h2 class="logo d-inline d-md-none">F</h2>
+                        <h2 class="logo d-inline d-md-none">I</h2>
                 </div>
             </router-link>
             <div class="sidebarMenuSection text-sm-start text-center mb-3" style="height: 40%;">
